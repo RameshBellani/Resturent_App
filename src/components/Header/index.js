@@ -35,6 +35,9 @@ const Header = props => {
         <h1 className=" logo-heading">{restaurantName}</h1>
       </Link>
       <div className="order-logo">
+        <p className="my-order-text">
+          <Link to="/">Home</Link>
+        </p>
         <p className="my-orders-text">My Orders</p>
         <button type="button" className="logoutBtn" onClick={onLogout}>
           Logout
